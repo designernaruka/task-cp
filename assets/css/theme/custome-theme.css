@@ -1,0 +1,208 @@
+/* Sticky Header styles */
+.navbar  {
+  padding: 0.9375rem 1rem;
+  background-color: #BDBDBD;
+}
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  position: relative;
+}
+.nav-item .active a.nav-link::before {
+  position: absolute;
+  content: ' ';
+  height: 3px;
+  width: 100%;
+  bottom: -4px;
+  background-color: #fff;
+}
+.navbar a:hover {
+  opacity: 0.9;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+* {
+  padding: 0px;
+  margin: 0px;
+}
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  font-size: 22px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  /* Set the fixed height of the footer here */
+  background-color: transparent;
+  border-top: solid 1px #D9D9D9;
+  color: #999999;
+  font-size: 80%;
+}
+
+
+/* Custom page CSS
+ * Not required for template or sticky footer method.
+ * -------------------------------------------------- */
+
+body>.container {
+  padding: 60px 15px 0;
+}
+
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.footer>.container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.footer a {
+  color: #999999;
+  text-decoration: none;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
+
+code {
+  font-size: 80%;
+}
+
+/* banner */
+.brand-banner {
+  background-color: #BDBDBD;
+  position: relative;
+  min-height: calc(100vh - 0px);
+  position: relative;
+}
+.banner {
+  padding: 78px 1rem 0.9375rem 1rem;
+}
+.brand-banner h1 {
+  font-size: 60px;
+  color: #fff;
+  margin-bottom: 0.625rem;
+}
+.brand-banner h2 {
+  font-size: 28px;
+  color: #000000;
+  margin-bottom: 0.625rem;
+}
+.brand-banner h3 {
+  font-size: 22px;
+  color: #000000;
+  margin-bottom: 0.625rem;
+}
+.brand-banner p {
+  font-size: 100%;
+  color: #fff;
+  margin-top: 0.625rem;
+}
+.brand-banner img {
+  width: 90vh;
+}
+.btn-wrapper {
+  position: absolute;
+  bottom: 6vh;
+  /* left: calc(50vw - 16vw); */
+  width: 100%;
+}
+.icon-play {
+  /* padding: 1rem; */
+  width: 37px;
+  height: 37px;
+  background: #D9D9D9;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 100%;
+  display: inline-block;
+  vertical-align: middle;
+  color: #858585;
+  line-height: 37px;
+  margin-right: 5px;
+}
+.brand-banner button {
+  font-size: 22px;
+  padding: 0.875rem 2.375rem;
+}
+
+/* main content  */
+main {
+  padding: 0 1rem;
+}
+.content-section {
+  padding: 1vh 0;
+  min-height: 100vh;
+}
+.content-section a {
+  color: #999999;
+  text-decoration: underline;
+}
+.content-section a:hover {
+  color: #575757;
+  transition: 1s ease-in-out;
+}
+.content-section h2 {
+  text-decoration: underline;
+  font-size: 250%;
+  margin-bottom: 1.25rem;
+}
+.content-section p {
+  font-size: 100%;
+  color: #999999;
+}
+.text-wrapper {
+  width: 65%;
+}
+.text-wrapper h3 {
+  font-size: 150%;
+}
+.text-info {
+  width: 100%;
+}
+.user-name {
+  font-size: 1.25rem;
+  color: #000000;
+}
+.post-details {
+  font-size: 1.25rem;
+  color: #999999;
+}
+.text-wrapper a {
+  text-decoration: none;
+}
+
+/* training */
+.content-section .nav-link {
+  background-color: #D9D9D9;
+  text-decoration: none;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  background-color: #858585;
+  color: #D9D9D9;
+}
+.select-previous-next a  {
+  background-color: #D9D9D9;
+  color: #858585;
+}
+.training-navigation {
+  width: 40%;
+}
+.training-navigation a {
+  background-color: #D9D9D9;
+  color: #858585;
+  padding: 0.5rem 0.8rem;
+  line-height: 1rem;
+  display: inline-block;
+  text-align: center;
+}
