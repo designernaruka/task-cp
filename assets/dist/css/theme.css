@@ -84,10 +84,13 @@ section h2 {
 }
 .meetChampions h3,
 .meetChampions strong,
-.meetChampions .text-black {
+.meetChampions .text-black,
+.championOfMonth h3,
+.championOfMonth strong,
+.championOfMonth  .text-black {
   color: #192150;
 }
-.meetChampions .social-network a {
+.social-network a {
   display: inline-block;
   color: #192150;
 }
