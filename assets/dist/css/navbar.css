@@ -216,14 +216,16 @@
 .footer-main {
   background-color: #20232F;
   color: #fff;
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+}
+.footer-main div {
+ padding: 1.5rem 0;
 }
 .footer-main h3 {
   font-size: 26px;
   color: #fff;
   font-weight: lighter;
   padding-bottom: 10px;
+  margin-bottom: 0;
 }
 .footer-main ul,
 .footer-main li {
@@ -243,4 +245,14 @@
 .social-network i {
   margin-left: 20px;
   font-size: 26px;
+}
+@media only screen and (min-width: 580px) and (max-width: 1012px) { 
+  .footer-main div {
+    width: 30%;
+  }
+}
+@media only screen and (min-width: 280px) and (max-width: 580px) { 
+  .footer-main div {
+    width: 100%;
+  }
 }
